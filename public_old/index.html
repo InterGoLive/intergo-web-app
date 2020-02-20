@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>InterGO</title>
+    <title>Welcome to Firebase Hosting</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/7.8.2/firebase-app.js"></script>
@@ -31,9 +31,26 @@
     </style>
   </head>
   <div id="arena-live" data-publisher="inter.go" data-event="6g78" data-version="2"></div><script src="https://go.arena.im/public/js/arenalib.js?p=inter.go&e=6g78"></script>    <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <!-- <div class="arena-embed-widget" data-publisher="inter.go" data-type="custom-widget" data-widgetid="-M0JXB6T3M14unkNrXmT"></div><script src="https://go.arena.im/public/js/arena.widget.embed.lib.js"></script> -->
+  <div class="arena-embed-widget" data-publisher="inter.go" data-type="custom-widget" data-widgetid="-M0JXB6T3M14unkNrXmT"></div><script src="https://go.arena.im/public/js/arena.widget.embed.lib.js"></script>
   <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDUAgd8Deh5RZz6GytO5MExoOPa1Fq3jSo",
+        authDomain: "intergo-2020.firebaseapp.com",
+        databaseURL: "https://intergo-2020.firebaseio.com",
+        projectId: "intergo-2020",
+        storageBucket: "intergo-2020.appspot.com",
+        messagingSenderId: "250785294439",
+        appId: "1:250785294439:web:161b314cfe31569ae80cc2",
+        measurementId: "G-MKNQ5YSMLR"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
